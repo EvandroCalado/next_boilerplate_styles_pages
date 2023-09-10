@@ -1,6 +1,6 @@
 import { screen } from '@testing-library/react';
 import Error404 from '.';
-import { renderTheme } from '../styles/render-theme';
+import { renderTheme } from '../../styles/render-theme';
 
 describe('Error404', () => {
   test('renders the correct titles', () => {

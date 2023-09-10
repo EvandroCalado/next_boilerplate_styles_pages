@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   * {
@@ -14,9 +14,9 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     font-size: 1.6rem;
-    font-family: 'Inter', sans-serif;
-    background-color: ${({ theme }) => theme.colors.backgroundDark};
-    color: ${({ theme }) => theme.colors.textLight};
+    font-family: ${({ theme }) => theme.font.family.primary};
+    background-color: ${({ theme }) => theme.colors.background};
+    color: ${({ theme }) => theme.colors.text};
   }
 
   a {
