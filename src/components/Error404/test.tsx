@@ -1,3 +1,4 @@
+import '@testing-library/jest-dom';
 import { screen } from '@testing-library/react';
 import Error404 from '.';
 import { renderTheme } from '../../styles/render-theme';
